@@ -1,8 +1,0 @@
-{
-  "/api/auth/cleanup/route": "app/api/auth/cleanup/route.js",
-  "/api/auth/signup/route": "app/api/auth/signup/route.js",
-  "/api/auth/signin/route": "app/api/auth/signin/route.js",
-  "/api/users/route": "app/api/users/route.js",
-  "/api/domains/route": "app/api/domains/route.js",
-  "/api/domains/[id]/route": "app/api/domains/[id]/route.js"
-}
