@@ -3,18 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "./scripts/print-env.sh && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest",
+    "test:user-registration": "./scripts/test_user_registration.sh",
+    "test:user-login": "./scripts/test_user_login.sh",
+    "test:profile-management": "./scripts/test_profile_management.sh",
+    "test:role-management": "./scripts/test_role_management.sh"
   },
   "dependencies": {
     "@supabase/auth-helpers-nextjs": "^0.9.0",
     "@supabase/supabase-js": "^2.39.0",
     "next": "14.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",
