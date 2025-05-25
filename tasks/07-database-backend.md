@@ -3,6 +3,20 @@
 ## Overview
 Implementation of database schema, backend services, and data management features.
 
+# Database and Backend
+
+## Overview
+Implementation of database schema, backend services, and data management features.
+
+##Rules
+1. A manager should be able to create a domain.
+2. First user for a new domain can be considered a manager
+3. A domain is necessary for user sign up. 
+4. Only a manager can delete a domain. (except the one that was used to sign up.)
+5. A manager can add other users to work on a domain
+6. A manager or a user can create multiple campaigns. 
+7. A manager or a user can create multiple urls with different utm parameters 
+
 ## Complexity: 9/10
 
 ## Tasks
